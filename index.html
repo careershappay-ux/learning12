@@ -51,7 +51,7 @@
             <h1>
                 About Me
             </h1>
-           <img src="https://imgs.search.brave.com/gsh62AbgH0fY9OYoXcA5FpCIw2HRLLJD3Ya1w2zczh4/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly90NC5m/dGNkbi5uZXQvanBn/LzE0LzMyLzczLzg3/LzM2MF9GXzE0MzI3/Mzg3NDRfNmdBbVNW/M0xNcTkzN2dvZTEx/Nlc4SXBYV0lEYTRw/d3kuanBn" alt="Profile Picture" width="400" height="400">
+            <img src="profile.jpg" alt="Profile Picture" width="200" height="200">
             <hr>
             <p1>
                 I am a dedicated software developer passionate about leveraging modern technology to solve real-world problems. Embracing the AI era, I combine traditional coding expertise with cutting-edge tools to create efficient, scalable, and user-friendly solutions. I am constantly learning and evolving with the tech landscape.
@@ -121,35 +121,48 @@
             </table>
 </section>
 
-
-
-         <section>
-            <h1>FormSubmit Demo</h1>
-            <form target="_blank" action="https://formsubmit.co/5aa188b86dcb2a002bbae76a48c5a83a" method="POST">
-              <div class="form-group">
-                <div class="form-row">
-                  <div class="col">
-                    <input type="text" name="name" class="form-control" placeholder="Full Name" required>
+            <section id="contact">
+                <h2>Contact Me</h2>
+                <form action="https://api.web3forms.com/submit" method="POST">
+                    <input type="hidden" name="access_key" value="900a8b70-9f55-4c23-92f9-90616e5940b4">
+                    <input type="text" name="name" required>
+                    <input type="email" name="email" required>
+                    <textarea name="message" required></textarea>
+                    <button type="submit">Submit Form</button>
+                  </form>
+          
+                <!-- <form target="_blank" action="https://formsubmit.co/04691779738a938f275743a38aeffcbe" method="POST">
+          
+                  <input type="hidden" name="_captcha" value="false">
+          
+                  <div class="form-group">
+                    <div class="form-row">
+                      <div class="col">
+                        <input type="text" name="name" class="form-control" placeholder="Full Name" required
+                          aria-label="Full Name">
+                      </div>
+                      <div class="col">
+                        <input type="email" name="email" class="form-control" placeholder="Email Address" required
+                          aria-label="Email Address">
+                      </div>
+                    </div>
                   </div>
-                  <div class="col">
-                    <input type="email" name="email" class="form-control" placeholder="Email Address" required>
+                  <div class="form-group">
+                    <textarea placeholder="Your Message" class="form-control" name="message" rows="7" required
+                      aria-label="Your Message"></textarea>
                   </div>
-                </div>
-              </div>
-              <div class="form-group">
-                <textarea placeholder="Your Message" class="form-control" name="message" rows="10" required></textarea>
-              </div>
-              <input type="hidden" name="_captcha" value="false">
-              <button type="submit" class="btn btn-lg btn-dark btn-block">Submit Form</button>
-              <input type="hidden" name="_next" value="https://careershappay-ux.github.io/learning12/thank.html">
-            </form>
-          </div>
-         </section>
+          
+                  <button type="submit" class="btn btn-lg btn-dark btn-block">Submit Form</button>
+                  <input type="hidden" name="_next" value="http://127.0.0.1:3000/thankyou.html">
+          
+                </form> -->
+              </section>
+          
         <hr>
 
 <footer>
     <p1>
-        © 2025 Developer Portfolio. <br>Designed and built with passion.
+         Developer Portfolio. <br>Designed and built in seminar 2025!
     </p1>
 </footer>
     </main>
